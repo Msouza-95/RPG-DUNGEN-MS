@@ -1,0 +1,15 @@
+D:\Projetos\DIO\aulas\dotNet\RPG-DUNGEON-MS\bin\Debug\net6.0\RPG-DUNGEON-MS.exe
+D:\Projetos\DIO\aulas\dotNet\RPG-DUNGEON-MS\bin\Debug\net6.0\RPG-DUNGEON-MS.deps.json
+D:\Projetos\DIO\aulas\dotNet\RPG-DUNGEON-MS\bin\Debug\net6.0\RPG-DUNGEON-MS.runtimeconfig.json
+D:\Projetos\DIO\aulas\dotNet\RPG-DUNGEON-MS\bin\Debug\net6.0\RPG-DUNGEON-MS.dll
+D:\Projetos\DIO\aulas\dotNet\RPG-DUNGEON-MS\bin\Debug\net6.0\RPG-DUNGEON-MS.pdb
+D:\Projetos\DIO\aulas\dotNet\RPG-DUNGEON-MS\obj\Debug\net6.0\RPG-DUNGEON-MS.csproj.AssemblyReference.cache
+D:\Projetos\DIO\aulas\dotNet\RPG-DUNGEON-MS\obj\Debug\net6.0\RPG-DUNGEON-MS.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\DIO\aulas\dotNet\RPG-DUNGEON-MS\obj\Debug\net6.0\RPG-DUNGEON-MS.AssemblyInfoInputs.cache
+D:\Projetos\DIO\aulas\dotNet\RPG-DUNGEON-MS\obj\Debug\net6.0\RPG-DUNGEON-MS.AssemblyInfo.cs
+D:\Projetos\DIO\aulas\dotNet\RPG-DUNGEON-MS\obj\Debug\net6.0\RPG-DUNGEON-MS.csproj.CoreCompileInputs.cache
+D:\Projetos\DIO\aulas\dotNet\RPG-DUNGEON-MS\obj\Debug\net6.0\RPG-DUNGEON-MS.dll
+D:\Projetos\DIO\aulas\dotNet\RPG-DUNGEON-MS\obj\Debug\net6.0\refint\RPG-DUNGEON-MS.dll
+D:\Projetos\DIO\aulas\dotNet\RPG-DUNGEON-MS\obj\Debug\net6.0\RPG-DUNGEON-MS.pdb
+D:\Projetos\DIO\aulas\dotNet\RPG-DUNGEON-MS\obj\Debug\net6.0\RPG-DUNGEON-MS.genruntimeconfig.cache
+D:\Projetos\DIO\aulas\dotNet\RPG-DUNGEON-MS\obj\Debug\net6.0\ref\RPG-DUNGEON-MS.dll
