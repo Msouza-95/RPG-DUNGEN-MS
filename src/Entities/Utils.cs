@@ -4,7 +4,8 @@ namespace RPG_DUNGEON_MS.src.Entities
 {
     public class Utils
     {
-        public Hero[] heros = new Hero[100];
+        public List<Hero> heros = new List<Hero>();
+      
         public void GenerateMenu()
         {
 
@@ -21,15 +22,8 @@ namespace RPG_DUNGEON_MS.src.Entities
         public void AddHero(Hero newhero)
         {
 
-            for (int i = 0; i < this.heros.Length; i++)
-            {
-                if (heros[i] != null)
-                {
-                    continue;
-                }
-                this.heros[i] = newhero;
-                break;
-            }
+            this.heros.Add(newhero);
+
 
         }
 
@@ -56,10 +50,14 @@ namespace RPG_DUNGEON_MS.src.Entities
 
         }
 
-        public Hero[] ShowHeros()
+        public void ShowHeros()
         {
 
-            return this.heros;
+            foreach (var hero in this.heros)
+            {
+
+                Console.WriteLine(hero);
+            }
         }
 
         public int OptionHero()
@@ -71,40 +69,39 @@ namespace RPG_DUNGEON_MS.src.Entities
             Console.WriteLine("2 - Wizard");
             Console.WriteLine("3 - Ninja ");
             Console.WriteLine("-----------------");
+
+        
             return int.Parse(Console.ReadLine());
         }
 
         public void DeleteHero(string name)
         {
-
-            for (int i = 0; i < this.heros.Length; i++)
-            {
-                if (this.heros[i].Name == name)
-                {
-                    // this.heros[i] = null; 
-
-                }
-            }
-        }
-
-        public int FindIndex(string name)
-        {
-
-            for (int i = 0; i < this.heros.Length; i++)
-            {
-                if (this.heros[i].Name == name)
-                {
-                    return i;
-                }
-            }
-            return -1;
-        }
-
-        public Hero FindHero(string name){
-
             int index = this.FindIndex(name);
+            this.heros.RemoveAt(index); 
 
-            return this.heros[index]; 
+        }
+
+        public int FindIndex(string name){
+
+           return  this.heros.FindIndex(hero => hero.Name == name); 
+
+        }
+
+       
+
+        public Hero FindHero(string name)
+        {
+            var hero = this.heros.Find(hero => hero.Name == name); 
+            if(hero ==  null){
+            
+                return new Ninja("null",  1); 
+
+            }else{
+                return hero; 
+            }
+            
+
+    
         }
     }
 }

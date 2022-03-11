@@ -21,9 +21,13 @@ namespace RPG_DUNGEON_MS.src.Entities
         public override string ToString(){
             return 
             $@"
+            -------------------------
             Nome: {this.Name }  
             Tipo: {this.HeroType }
-            Level: {this.Level}";
+            Level: {this.Level}
+            HP: {this.Hp}
+            MP: {this.Mp}
+            --------------------------";
 
         }
 

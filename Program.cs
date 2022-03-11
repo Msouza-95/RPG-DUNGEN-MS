@@ -45,23 +45,24 @@ namespace RPG_DUNGEON_MS
                         break;
                     case 2:
                         // Show all Heros 
-                       var heros = utils.ShowHeros(); 
-                       foreach (var hero in heros)
-                       {
-                           if(hero.Name == null){
-                               continue;
-                           }
-                           Console.WriteLine(hero);
-                       }
+                         utils.ShowHeros(); 
                         break;
                     case 3:
-                        // TDelete a Hero 
+                        // TDelete a Hero
+                        Console.WriteLine("Digite o nome que Deseja deletar");
+                        var deleteName = Console.ReadLine();
+                        utils.DeleteHero(deleteName);
                         break;
                     case 4:
                         //  Finding a Hero 
                         Console.WriteLine("Digite o nome do Heroi que deseja buscar");
                         var findName = Console.ReadLine();
-                        Console.WriteLine(utils.FindHero(findName));
+                        var hero = utils.FindHero(findName);
+                        if(hero.Name == "null"){
+                            Console.WriteLine("Heroi não encontrado ");
+                        }else{
+                            Console.WriteLine(hero); 
+                        }
                         break;
                     case 0:
                         // 0  - End game "

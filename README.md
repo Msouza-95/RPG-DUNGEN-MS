@@ -9,3 +9,8 @@ O objetivo desse projeto é reforçar o conhecimento em Programação Orientada 
 - Buscar Heros
 - Mostrar dados dos heros
     
+## Executar
+
+´´´bash
+    dotnet run
+´´´´
